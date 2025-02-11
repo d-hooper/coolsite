@@ -1,0 +1,12 @@
+body {
+  margin: 0px; 
+}
+
+header, main {
+  background-color: #061130;
+  color: #F4F6F8;
+}
+
+footer {
+  background-color: #F4F6F8;
+}
