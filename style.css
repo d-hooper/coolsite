@@ -1,6 +1,8 @@
 body {
   margin: 0px; 
   font-family: sans-serif;
+  flex-direction: column;
+  min-height: 100dvh;
 }
 
 header, main {
@@ -26,23 +28,25 @@ nav a:hover {
 
 .chat-button{
   background-color: #1C4BC4;
-  border-radius: 6%;
+  border-radius: 4px;
 }
 
 main {
-  padding: 5rem 10rem;
+  padding: 5rem 10rem 10rem;
 }
 
 main p:first-of-type {
   color: #FAFD61;
 }
 
-footer {
-  background-color: #F4F6F8;
-}
-
 footer div {
   text-align: center;
+  background-color: #F4F6F8;
+  padding: 1.25rem 0;
+}
+
+ul {
+  padding: 2.5rem 0;
 }
 
 li {
@@ -56,6 +60,7 @@ li a {
 
 li a:hover {
   text-decoration: underline;
+  color: #7a4ba7;
 }
 
 .display-flex {

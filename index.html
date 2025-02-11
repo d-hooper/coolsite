@@ -8,26 +8,29 @@
   <title>Cool Site</title>
 </head>
 
-<body>
+<body class="display-flex justify-content-between">
+  
   <header class="display-flex align-items-center justify-content-between">
     <div>
       <img src="coolsite-logo.png" alt="Cool Site 2.0 Logo">
     </div>
     <nav>
       <span>
-        <a href="">About Us</a>
+        <a href="#about">About Us</a>
       </span>
       <span>
-        <a href="">Services</a>
+        <a href="#services">Services</a>
       </span>
       <span>
         <a class="chat-button" href="">Let's Chat</a>
       </span>
     </nav>
   </header>
-  <main class="display-flex">
+  
+  <main class="display-flex align-items-center justify-content-between">
+
     <div>
-      <p>Services</p>
+      <p id="services">Services</p>
       <h1>Building web apps that scale to your worldwide audience</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sunt, temporibus aut quod sapiente porro? Rem
         tempore rerum incidunt, est aperiam obcaecati, quis cum enim iste assumenda delectus repellat eius!</p>
@@ -36,8 +39,9 @@
       <img src="world.png" alt="A map of the continents of Earth">
     </div>
   </main>
-  <footer>
-    <div></div>
+  
+  <footer id="about">
+
     <ul  class="display-flex justify-content-evenly">
       <li>
         <a href="">HTML &amp CSS</a>
@@ -52,11 +56,11 @@
         <a href="">Accessibility Standards</a>
       </li>
     </ul>
+    
     <div>
     <h2>From Ideas to Reality</h2>
     <p>If you can dream it, then you can build it with web technology solutions.</p>      
     </div>
-
 
   </footer>
 </body>
