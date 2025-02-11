@@ -1,5 +1,6 @@
 body {
   margin: 0px; 
+  font-family: sans-serif;
 }
 
 header, main {
@@ -7,6 +8,29 @@ header, main {
   color: #F4F6F8;
 }
 
+main p:first-of-type {
+  color: #FAFD61;
+}
+
 footer {
   background-color: #F4F6F8;
+}
+
+footer div {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.display-flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
 }
