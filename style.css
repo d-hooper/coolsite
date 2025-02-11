@@ -7,6 +7,31 @@ header, main {
   background-color: #061130;
   color: #F4F6F8;
 }
+header {
+  padding: 2rem 3.5rem;
+}
+
+nav a {
+  color: #F4F6F8;
+  margin: 0 1.5rem;
+  padding: 0.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  box-shadow: 1px 1px 3px #F4F6F8;
+}
+
+.chat-button{
+  background-color: #1C4BC4;
+  border-radius: 6%;
+}
+
+main {
+  padding: 5rem 10rem;
+}
 
 main p:first-of-type {
   color: #FAFD61;
@@ -24,6 +49,15 @@ li {
   list-style-type: none;
 }
 
+li a {
+  text-decoration: none;
+  color: #4DABFF;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
 .display-flex {
   display: flex;
 }
@@ -33,4 +67,8 @@ li {
 
 .align-items-center {
   align-items: center;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
 }
