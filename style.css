@@ -15,9 +15,16 @@ header {
   padding: 2rem 3.5rem;
 }
 
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
 nav a {
   color: #F4F6F8;
   margin: 0 1.5rem;
+  line-height: 2em;
   padding: 0.5rem;
   font-weight: 700;
   text-decoration: none;
@@ -34,15 +41,27 @@ nav a:hover {
 }
 
 main {
-  padding: 5rem 10rem 10rem;
+  /* padding: 5rem 8rem 10rem; */
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
 }
 
 main div {
-  max-width: 40dvw;
+  min-width: 20dvw;
+  max-width: 80%;
+  justify-content: center;
 }
 
 main img {
-  max-width: 40dvw;
+  max-width: 75%;
 }
 
 main p:first-of-type {
@@ -54,10 +73,6 @@ footer div {
   text-align: center;
   background-color: #F4F6F8;
   padding: 1.25rem 0;
-}
-
-ul {
-  padding: 2.5rem 0;
 }
 
 li {
@@ -88,4 +103,37 @@ li a:hover {
 
 .justify-content-evenly {
   justify-content: space-evenly;
+}
+
+@media screen and (min-width: 800px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  main {
+    padding: 5rem 8rem 10rem;
+    flex-wrap: wrap;
+  }
+  
+  main div {
+    min-width: 20dvw;
+    max-width: 40dvw;
+  }
+
+  main img {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  ul {
+    padding: 2.5rem 0;
+  }
 }
